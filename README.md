@@ -2,7 +2,7 @@
   <img height="200" src="./cattywampus.png">
 </p>
 
-![badge](./badge.svg)
+![badge](./badge.png)
 
 # Cattywampus
 ## Minimal Parking Page for Dokku
