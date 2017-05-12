@@ -4,9 +4,8 @@
 
 ![badge](./badge.png)
 
-# Cattywampus
-## Minimal Parking Page for Dokku
-
+# Parker
+## Minimal Domain Parking Page
 
 ### Usage
 
@@ -17,35 +16,17 @@ $ git clone git@github.com:ryanmaynard/cattywampus.git project-name
 $ cd project-name
 ```
 
-##### Add header and/or subheader
-
-```
-<div class="splash">
-	<h1 class="splash-head">Cattywampus</h1>
-	<p><a class="pure-button pure-button-primary" href="external-url">Coming Soon</a></p>
-</div>
-```
 ### Options
 
 ##### Select a gradient
-Head to [UI Gradients][uigradients] to grab some color values. Copy the CSS and place it in `main.css`
+Head to [UI Gradients][uigradients] to grab some color values. Copy the CSS and place it here:
  
 ```
-.splash-container {
+body {
     background: #fd746c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-```
-##### Analytics 
-Add analytics if you want to place a retargeting pixel
-
-```
-<footer>
-  <script>
-    // Analytics 
-
-  </script>
-</footer>
+    }
 ```
 ### Credit
 [Indrashish Ghosh][ghosh] for making [uiGradients][uigradients].
