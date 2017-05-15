@@ -12,7 +12,7 @@
 ##### Clone repo
 
 ```
-$ git clone git@github.com:ryanmaynard/cattywampus.git project-name
+$ git clone git@github.com:ryanmaynard/parker.git project-name
 $ cd project-name
 ```
 
